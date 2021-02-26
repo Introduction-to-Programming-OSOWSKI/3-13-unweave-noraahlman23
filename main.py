@@ -6,5 +6,5 @@ def unweave(w):
 
     for i in range (1, len(w), 2):
         newword2 = newword2 + w[i]
-    return newword1 + newword2
+    return newword1 + " " + newword2
 print (unweave("potato"))
